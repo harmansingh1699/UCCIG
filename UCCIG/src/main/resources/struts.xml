@@ -14,7 +14,7 @@
 			<result name="success">index.jsp</result>
 			<result name="input">index.jsp</result>
 		</action>
-		<action name="register" class="com.uccig.action.RegisterationAction">
+		<action name="register" class="com.uccig.action.RegistrationAction">
 			<result name="success">index.jsp</result>
 			<result name="input">index.jsp</result>
 		</action>
