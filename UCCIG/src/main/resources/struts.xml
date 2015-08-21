@@ -10,15 +10,16 @@
 	<package name="basicStruts" namespace="/uccig" extends="struts-default">
 	</package>
 	<package name="loginRegistration" extends="struts-default">
-		<action name="login" class="com.uccig.action.LoginAction">
+		<action name="login" class="com.uccig.action.accessingoperations.LoginAction">
 			<result name="success">index.jsp</result>
-			<result name="input">index.jsp</result>
+			<result name="error">index.jsp</result>
 		</action>
-		<action name="register" class="com.uccig.action.RegistrationAction">
+		<action name="register"
+			class="com.uccig.action.accessingoperations.RegistrationAction">
 			<result name="success">index.jsp</result>
-			<result name="input">index.jsp</result>
+			<result name="error">index.jsp</result>
 		</action>
-		
+
 	</package>
 
 </struts>
